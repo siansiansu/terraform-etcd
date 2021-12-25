@@ -8,13 +8,13 @@ This is a terraform code for deploying an etcd cluster with 3 nodes.
 git clone git@github.com:siansiansu/terraform-etcd.git
 ```
 
-Preview the changes with terraform plan.
+## Preview the changes
 
 ```bash
 terraform plan -var-file=service/stage.tfvars
 ```
 
-Apply the changes
+## Apply the changes
 
 ```bash
 terraform apply -var-file=service/stage.tfvars
